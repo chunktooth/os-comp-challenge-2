@@ -1,0 +1,519 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 100vh;
+  font-family: 'Spectral SC', serif;
+}
+
+.left-pane {
+  width: 60%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.right-pane {
+  width: 40%;
+  height: 100vh;
+  background-image: url(bob-images/chuck-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 8% 5% 0 5%;
+}
+
+p {
+  font-size: 0.9em;
+  font-family: sans-serif;
+  margin: 5%;
+}
+
+.btn {
+  border-radius: 0%;
+  background-color: #6A6A6A;
+  margin-top: 1%;
+  margin-left: 5%;
+  padding: 1% 3%;
+  font-family: 'Spectral SC', serif;
+  font-size: 1em;
+  color: #FAFAFA;
+  border: solid 2px #BEBEBE;
+}
+
+.tile {
+  width: 33.333%;
+  height: 33.33%;
+  color: #FAFAFA;
+}
+
+.menu {
+  margin: 0;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.galleria {
+  margin-top: 22%;
+  padding: 22%;
+  font-size: 1.2em;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+
+.bio {
+  width: 66.666%;
+  background-color: #6A6A6A;
+}
+
+.places {
+  background-image: url(bob-images/taxco-3.jpg);
+  background-size: cover;
+  color: #FAFAFA;
+}
+
+.icon {
+  width: 30%;
+  padding-top: 24%;
+  padding-left: 35%;
+}
+
+.spiro {
+  background-color: #077594;
+}
+
+.comics {
+  background-color: #EE4D6A;
+  display: block;
+}
+
+.contact {
+  background-color: #8C8C8C;
+}
+
+.foto-i {
+  background-image: url(bob-images/chuck-and-fam.jpg);
+  background-size: cover;
+  color: #FAFAFA;
+}
+
+.foto-ii {
+  background-image: url(bob-images/aboortionist-12.jpg);
+  background-size: cover;
+  color: #FAFAFA;
+}
+
+.foto-iii {
+  background-image: url(bob-images/tina-turner1.jpg);
+  background-size: cover;
+  color: #FAFAFA;
+}
+
+@media screen and (max-width: 850px) {
+  .wrapper {
+  flex-direction: column-reverse;
+  height: 100vh;
+  }
+  
+  .left-pane {
+    width: 100%;
+  }
+
+  .tile {
+    height: 50%;
+    margin-bottom: 0;
+  }
+
+  .right-pane {
+    width: 100%;
+    height: 50%;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+
+  .left-pane {
+    width: 100%;
+    height: 50vh;
+
+  }
+
+  h1 {
+    font-size: 1.5em;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+
+  p {
+    font-size: 1em;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+  }
+
+  .btn {
+    border-radius: 0%;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 1% 2%;
+    font-size: 1em;
+  }
+
+  .bio {
+    width: 66.666%;
+  }
+
+  .icon {
+  width: 28%;
+  padding-top: 15%;
+  padding-left: 35%;
+  vertical-align: center;
+  }
+
+  .menu {
+  margin: 0;
+  text-align: center;
+  font-size: 1em;
+}
+
+  .galleria {
+  margin-top: 3%;
+  padding: 20%;
+  font-size: 1em;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  }
+
+  .right-pane {
+  width: 100%;
+  height: 50vh;
+  background-image: url(bob-images/chuck-4.jpg);
+  background-position: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+
+  .left-pane {
+    width: 100%;
+    height: 50vh;
+
+  }
+
+  h1 {
+    font-size: 1.5em;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+
+  p {
+    font-size: 1.1em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+  }
+
+  .btn {
+    border-radius: 0%;
+    background-color: #6A6A6A;
+    margin-top: 1%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 1.1em;
+    color: #FAFAFA;
+    border: solid 2px #BEBEBE;
+  }
+
+  .icon {
+  width: 36%;
+  padding-top: 10%;
+  padding-left: 30%;
+  }
+
+  .menu {
+  margin: 0;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+  .galleria {
+  margin-top: 6%;
+  padding: 20%;
+  font-size: 1.2em;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  }
+
+  .right-pane {
+  justify-content: flex-end;
+  width: 100%;
+  height: 50vh;
+  background-image: url(bob-images/chuck-4.jpg);
+  }
+}
+
+
+/* for Google Pixel */
+@media screen and (max-width: 411px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    }
+    
+    h1 {
+    font-size: 1em;
+    margin-top: 5%;
+    margin-left: 5%;
+    }
+
+    p {
+    font-size: 0.8em;
+    font-family: sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    }
+
+    .btn {
+    border-radius: 0%;
+    background-color: #6A6A6A;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 1% 4%;
+    font-size: 0.2em;
+    color: #FAFAFA;
+    border: solid 2px #BEBEBE;
+    }
+
+    .icon {
+    width: 35%;
+    padding-top: 20%;
+    padding-left: 35%;
+    }
+
+    .menu {
+    margin: 0;
+    text-align: center;
+    font-size: 0.7em;
+  }
+
+    .galleria {
+    margin-top: 20%;
+    padding: 20%;
+    font-size: 0.7em;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    }
+
+    .right-pane {
+    justify-content: flex-end;
+    width: 100%;
+    height: 50vh;
+    background-image: url(bob-images/chuck-4.jpg);
+    }
+  }
+
+/* for Samsung Galaxy s5 */
+@media screen and (max-width: 360px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    }
+    
+    h1 {
+    font-size: 0.8em;
+    margin-top: 2%;
+    margin-left: 5%;
+    }
+
+    p {
+    font-size: 0.7em;
+    font-family: sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    }
+
+    .btn {
+    border-radius: 0%;
+    background-color: #6A6A6A;
+    margin-top: 1%;
+    margin-left: 5%;
+    padding: 1% 4%;
+    font-size: 0.2em;
+    color: #FAFAFA;
+    border: solid 2px #BEBEBE;
+    }
+
+    .icon {
+    width: 35%;
+    padding-top: 18%;
+    padding-left: 35%;
+    }
+
+    .menu {
+    margin: 0;
+    text-align: center;
+    font-size: 0.7em;
+  }
+
+    .galleria {
+    margin-top: 18%;
+    padding: 20%;
+    font-size: 0.7em;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    }
+  }
+
+  /* for iPhone 6,7,8, X */
+  @media screen and (max-width: 375px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    }
+
+    .tile {
+    width: 33.33%;
+    height: 33.33%;
+    color: #FAFAFA;
+    }
+
+    .bio {
+    width: 66.666%;
+    }
+    
+    h1 {
+    font-size: 0.9em;
+    margin-top: 2%;
+    margin-left: 5%;
+    }
+
+    p {
+    font-size: 0.7em;
+    font-family: sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    }
+
+    .btn {
+    border-radius: 0%;
+    background-color: #6A6A6A;
+    margin-top: 1%;
+    margin-left: 5%;
+    padding: 1% 4%;
+    font-size: 0.2em;
+    color: #FAFAFA;
+    border: solid 2px #BEBEBE;
+    }
+
+    .icon {
+    width: 30%;
+    padding-top: 18%;
+    padding-left: 35%;
+    }
+
+    .menu {
+    margin: 0;
+    text-align: center;
+    font-size: 0.6em;
+  }
+
+    .galleria {
+    margin-top: 18%;
+    padding: 20%;
+    font-size: 0.6em;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    }
+  }
+
+  /* for iPhone 5*/
+  @media screen and (max-width: 320px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    }
+    
+    h1 {
+    font-size: 0.7em;
+    margin-top: 2%;
+    margin-left: 5%;
+    }
+
+    p {
+    font-size: 0.63em;
+    font-family: sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    }
+
+    .btn {
+    border-radius: 0%;
+    background-color: #6A6A6A;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding: 1% 4%;
+    font-size: 0.2em;
+    color: #FAFAFA;
+    border: solid 2px #BEBEBE;
+    }
+
+    .icon {
+    width: 30%;
+    padding-top: 18%;
+    padding-left: 35%;
+    }
+
+    .menu {
+    margin: 0;
+    text-align: center;
+    font-size: 0.6em;
+  }
+
+    .galleria {
+    margin-top: 18%;
+    padding: 20%;
+    font-size: 0.6em;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    }
+  }
+
+@media screen (min-width: 1080px) {
+  .wrapper {
+    width: 90%;
+  }
+}
