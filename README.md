@@ -15,5 +15,5 @@ Inspired by my own cherry red BC Rich Warlock guitar. Added yellow and grey for 
 ## Resources
 Item images are googled with permission for noncommercial reuse. All icons are free for download.
 
-![MA COMP] (os-static-comp-2.png)
-![YO COMP] (static-comp-og-2.png)
+![MA COMP] (https://github.com/chunktooth/os-comp-challenge-2/blob/master/os-static-comp-2.png)
+![YO COMP] (https://github.com/chunktooth/os-comp-challenge-2/blob/master/static-comp-og-2.png)
