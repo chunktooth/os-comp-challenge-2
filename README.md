@@ -10,7 +10,7 @@ It took me a long time to figure out the nav bar position alone. The best soluti
 Discovered ```word-wrap: break-word``` for the link box and used ```background-color: hsla()``` to add transparency with lightness to each article.
 
 ## Color palette
-Inspired by a cherry red BC Rich Warlock guitar. Added yellow and grey for minimum playfulness.
+Inspired by a color of cherry red BC Rich Warlock guitar. Added yellow and grey for minimum playfulness.
 
 ## Resources
 Item images are googled with permission for noncommercial reuse. All icons are free for download.
