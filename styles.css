@@ -78,6 +78,10 @@ li {
   font-size: 1.4em;
 }
 
+li:hover {
+  text-decoration: underline;
+}
+
 .fav-icon {
   width: 20px;
   padding-right: 2px;
