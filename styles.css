@@ -82,6 +82,11 @@ li:hover {
   text-decoration: underline;
 }
 
+li.selected {
+  text-decoration: none;
+  color: #FFC300;
+}
+
 .fav-icon {
   width: 20px;
   padding-right: 2px;
